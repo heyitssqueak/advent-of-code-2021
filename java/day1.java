@@ -1,13 +1,13 @@
+/**
+ * Advent of Code 2021 - Day 1: Sonar Sweep
+ * 30 November 2021
+ * 11:01 PM - 11:20 PM
+ */
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Scanner;
-
-/**
- * Advent of Code 2021 - Day 1: Sonar Sweep
- * 20 November 2021
- * 11:01 PM - 11:20 PM
- */
 
 public class day1 {
     public static void main(String[] args) throws FileNotFoundException {
@@ -16,7 +16,7 @@ public class day1 {
     }
 
     public static void part1() throws FileNotFoundException {
-        File input = new File("day1//input.txt");
+        File input = new File("inputs/day1.txt");
 
         Scanner sc = new Scanner(input);
         ArrayList<Integer> measurements = new ArrayList<>();
@@ -48,7 +48,7 @@ public class day1 {
     }
 
     public static void part2() throws FileNotFoundException {
-        File input = new File("day1//input.txt");
+        File input = new File("inputs/day1.txt");
 
         Scanner sc = new Scanner(input);
         ArrayList<Integer> measurements = new ArrayList<>();
@@ -79,6 +79,8 @@ public class day1 {
                 index++;
             }
         }
+
+        sc.close();
 
         System.out.println(counter);
     }
