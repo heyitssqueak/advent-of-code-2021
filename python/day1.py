@@ -3,7 +3,7 @@
 # 4:25 PM - 5:27 PM, on off at work
 
 # reading input
-f = open('day1/input.txt', 'r')
+f = open('inputs/day1.txt', 'r')
 lines = f.readlines()
 
 # part 1
