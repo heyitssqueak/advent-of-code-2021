@@ -1,7 +1,6 @@
 /**
  * Advent of Code 2021 - Day 3: Binary Diagnostic
  * 2 December 2021 - 3 December 2021
- * 11:00 PM - 12:19 PM, 1:54 PM - 3:17 PM
  * 
  * part 1: 12 minutes
  * part 2: 150 minutes :(
@@ -51,8 +50,8 @@ public class day3 {
             }
         }
 
-        // System.out.println(gamma);
-        // System.out.println(epsilon);
+        System.out.println(gamma);
+        System.out.println(epsilon);
 
         sc.close();
 
@@ -107,13 +106,13 @@ public class day3 {
 
             if(counter0 > counter1) {
                 oxygen[i+1] = '0';
-                System.out.println(counter0 + " : " + 0);
+                //System.out.println(counter0 + " : " + 0);
             } else {
                 oxygen[i+1] = '1';
-                System.out.println(counter1 + " : " + 1);
+                //System.out.println(counter1 + " : " + 1);
             }
 
-            System.out.println(oxygen);
+            //System.out.println(oxygen);
         }
 
         for(int i = 0; i < epsilon.toCharArray().length; i++) {
@@ -135,7 +134,7 @@ public class day3 {
                 }
             }
 
-            System.out.println("SIZE: "+co2Q.size());
+            //System.out.println("SIZE: "+co2Q.size());
 
             if(co2Q.size() == 1) {
                 break;
@@ -154,11 +153,11 @@ public class day3 {
 
             if(counter0 > counter1) {
                 co2[i+1] = '1';
-                System.out.println(counter1 + " : " + 1);
+                //System.out.println(counter1 + " : " + 1);
 
             } else {
                 co2[i+1] = '0';
-                System.out.println(counter1 + " : " + 0);
+                //System.out.println(counter1 + " : " + 0);
 
             }
 
