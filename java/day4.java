@@ -77,6 +77,8 @@ public class day4 {
             }            
         }
 
+        sc.close();
+
         // for(int[][] board : boards) {
         //     for(int i = 0; i < 5; i++) {
         //         for(int j = 0; j < 5; j++) {
@@ -182,6 +184,8 @@ public class day4 {
                 boards.add(currBoard);
             }            
         }
+
+        sc.close();
 
         HashMap<int[][], LinkedList<Integer>> map = new HashMap<>();
 
