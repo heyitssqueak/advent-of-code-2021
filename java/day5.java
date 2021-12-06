@@ -1,6 +1,6 @@
 /**
- * Advent of Code 2021 - Day 5: Sonar Sweep
- * 4 December 2021 - 5 November 2021
+ * Advent of Code 2021 - Day 5: Hydrothermal Venture
+ * 4 December 2021 - 5 December 2021
  * 
  * part 1: 24 minutes
  * part 2: 49 minutes
