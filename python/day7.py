@@ -1,8 +1,7 @@
-# Advent of Code 2021 - Day 7: Dive!
+# Advent of Code 2021 - Day 7: The Treachery of Whales
 # 7 December 2021
 # 
-# part 1:
-# part 2:
+# 20 minutes
 
 def limitToMiddleThird(input):
     sum = 0
